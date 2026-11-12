@@ -24,6 +24,13 @@ Running 70B+ open models (Llama 3.3 70B, DeepSeek R1) costs a fortune in GPU com
 
 ## 🏗️ System Architecture & Financial Flow
 
+<p align="center">
+  <img src="./assets/architecture-diagram.jpg" alt="PromptFund AI - Autonomous Compute Clearinghouse Architecture" width="100%" style="border-radius: 8px; border: 1px solid #E6E6E1;" />
+</p>
+
+<details>
+<summary><b>View Interactive Mermaid Sequence Flowchart</b></summary>
+
 ```mermaid
 flowchart TD
     subgraph SPONSORS["1. INBOUND LIQUIDITY (Sponsors)"]
@@ -62,6 +69,8 @@ flowchart TD
     style DEVELOPERS fill:#FFFFFF,stroke:#E6E6E1,stroke-width:2px
     style HARDWARE fill:#FBFBF9,stroke:#0D7A5F,stroke-width:2px
 ```
+
+</details>
 
 ---
 
@@ -132,6 +141,8 @@ Open **`http://localhost:3000`** in your browser.
 
 ```
 Promptfund/
+├── assets/
+│   └── architecture-diagram.jpg           # Retail architecture diagram
 ├── src/
 │   ├── app/
 │   │   ├── api/

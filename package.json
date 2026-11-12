@@ -2,7 +2,7 @@
   "name": "promptfund-ai",
   "version": "0.1.0",
   "private": true,
-  "description": "Autonomous Ad-Funded Open-Source AI Compute Exchange Powered by PayPal & Supabase",
+  "description": "Autonomous Ad-Funded Open Compute Clearinghouse Powered by PayPal Developer Platform (Orders v2 + Payouts v1)",
   "license": "MIT",
   "scripts": {
     "dev": "node -r ./patch-exfat.js ./node_modules/next/dist/bin/next dev",
